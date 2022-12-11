@@ -59,9 +59,7 @@
         └── pixmaps
 
 12 directories, 13 files
-
-Postinst\n=========
-
+text
 #!/bin/sh  
 set -e  
   
@@ -85,9 +83,7 @@ dpkg-maintscript-helper mv_conffile /etc/mc/mc.keymap.emacs /etc/mc/mc.emacs.key
 dpkg-maintscript-helper mv_conffile /etc/mc/mc.keymap.default /etc/mc/mc.default.keymap 3:4.8.8-0 -- "$@"  
 # End automatically added section  
   
-
-Postrm\n=========
-
+text
 #!/bin/sh  
 set -e  
   
@@ -117,9 +113,7 @@ dpkg-maintscript-helper mv_conffile /etc/mc/mc.keymap.emacs /etc/mc/mc.emacs.key
 dpkg-maintscript-helper mv_conffile /etc/mc/mc.keymap.default /etc/mc/mc.default.keymap 3:4.8.8-0 -- "$@"  
 # End automatically added section  
   
-
-Preinst\n=========
-
+text
 #!/bin/sh  
 set -e  
 # Automatically added by dh_installdeb/13.3.4ubuntu2  
@@ -132,9 +126,7 @@ dpkg-maintscript-helper mv_conffile /etc/mc/cedit.menu /etc/mc/mcedit.menu 3:4.8
 dpkg-maintscript-helper mv_conffile /etc/mc/mc.keymap.emacs /etc/mc/mc.emacs.keymap 3:4.8.8-0 -- "$@"  
 dpkg-maintscript-helper mv_conffile /etc/mc/mc.keymap.default /etc/mc/mc.default.keymap 3:4.8.8-0 -- "$@"  
 # End automatically added section  
-
-Prerm\n=========
-
+text
 #!/bin/sh  
 set -e  
   
