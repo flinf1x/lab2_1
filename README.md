@@ -1,42 +1,36 @@
-               
- ####  # ##### 
-#    # #   #   
-#      #   #   
-#  ### #   #   
-#    # #   #   
- ####  #   #   
-               
-**Package:** git 
-**Version:** 1:2.34.1-1ubuntu1.4 
-**Priority:** optional 
-**Section:** vcs 
-**Origin:** Ubuntu 
-**Maintainer:** Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
-**Original-Maintainer:** Jonathan Nieder <jrnieder@gmail.com> 
-**Bugs:** https://bugs.launchpad.net/ubuntu/+filebug 
-**Installed-Size:** 18,8 MB 
-**Provides:** git-completion, git-core 
-**Depends:** libc6 (>= 2.34), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.34.1), git-man (<< 1:2.34.1-.) 
-**Recommends:** ca-certificates, patch, less, ssh-client 
-**Suggests:** gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn 
-**Breaks:** bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15) 
-**Homepage:** https://git-scm.com/ 
-**Task:** cloud-image, ubuntu-wsl, server, ubuntu-server-raspi, kubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop 
-**Download-Size:** 3 131 kB 
-**APT-Manual-Installed:** yes 
-**APT-Sources:** http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages 
-**Description:** fast, scalable, distributed revision control system 
- Git is popular version control system designed to handle very large 
- projects with speed and efficiency; it is used for many high profile 
- open source projects, most notably the Linux kernel. 
- . 
- Git falls in the category of distributed source code management tools. 
- Every Git working directory is a full-fledged repository with full 
- revision tracking capabilities, not dependent on network access or a 
- central server. 
- . 
- This package provides the git main components with minimal dependencies. 
- Additional functionality, e.g. a graphical user interface and revision 
- tree visualizer, tools for interoperating with other VCS's, or a web 
- interface, is provided as separate git* packages. 
- 
+              
+#    #  ####  
+##  ## #    # 
+# ## # #      
+#    # #      
+#    # #    # 
+#    #  ####  
+              
+**Package:** mc  
+**Version:** 3:4.8.27-1  
+**Priority:** optional  
+**Section:** universe/utils  
+**Origin:** Ubuntu  
+**Maintainer:** Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>  
+**Original-Maintainer:** Dmitry Smirnov <onlyjob@debian.org>  
+**Bugs:** https://bugs.launchpad.net/ubuntu/+filebug  
+**Installed-Size:** 1 574 kB  
+**Provides:** mcedit  
+**Depends:** libc6 (>= 2.34), libext2fs2 (>= 1.37), libglib2.0-0 (>= 2.59.2), libgpm2 (>= 1.20.7), libslang2 (>= 2.2.4), libssh2-1 (>= 1.2.8), mc-data (= 3:4.8.27-1)  
+**Recommends:** mime-support, perl, unzip, sensible-utils  
+**Suggests:** arj, bzip2, catdvi | texlive-binaries, dbview, djvulibre-bin, epub-utils, file, genisoimage, gv, imagemagick, libaspell-dev, links | w3m | lynx, odt2txt, poppler-utils, python, python-boto, python-tz, unar, wimtools, xpdf | pdf-viewer, zip  
+**Homepage:** https://www.midnight-commander.org  
+**Download-Size:** 547 kB  
+**APT-Manual-Installed:** yes  
+**APT-Sources:** http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages  
+**Description:** Midnight Commander - a powerful file manager  
+ GNU Midnight Commander is a text-mode full-screen file manager. It  
+ uses a two panel interface and a subshell for command execution. It  
+ includes an internal editor with syntax highlighting and an internal  
+ viewer with support for binary files. Also included is Virtual  
+ Filesystem (VFS), that allows files on remote systems (e.g. FTP, SSH  
+ servers) and files inside archives to be manipulated like real files.  
+  
+home/m/Загрузки/mc  [error opening dir]
+
+0 directories, 0 files
